@@ -2,7 +2,7 @@ with import <nixpkgs> {};
 let
   my-python-packages = python-packages: [
     python-packages.pip
-    python-packages.numpy
+    # python-packages.numpy
     # python-packages.pytelegrambotapi
   ];
   my-python = python311.withPackages my-python-packages;

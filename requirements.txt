@@ -1,2 +1,4 @@
 pytelegrambotapi
 berserk
+numpy
+scipy
